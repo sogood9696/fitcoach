@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --maxw: 1100px;
+}
+.wrapper { max-width: var(--maxw); margin: 0 auto; padding: 0 1rem; }
+.card { @apply border border-gray-200 rounded-2xl p-4; }
+.btn  { @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-900; }
+.muted { @apply text-gray-500; }
